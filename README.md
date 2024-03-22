@@ -63,4 +63,4 @@ Please follow the link for details: [https://facebook.github.io/create-react-app
 
 ### Deployment
 
-Please follow the link for details: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here, please follow the link for details: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
