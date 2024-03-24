@@ -59,7 +59,7 @@ Please follow the link for details: [https://facebook.github.io/create-react-app
 
 ### Advanced Configuration
 
-Please follow the link for details: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This section has moved here, please follow the link for details: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
