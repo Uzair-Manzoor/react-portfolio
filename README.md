@@ -63,7 +63,7 @@ This section has moved here, please follow the link for details: [https://facebo
 
 ### Deployment
 
-This section has moved here, please follow the link for details: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+lease follow the link for details: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
