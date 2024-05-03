@@ -3,7 +3,7 @@ This project has been bootstrapped with [Create React App](https://github.com/fa
 
 ## Available Scripts
 
-In the project directory, you can run:
+Execute the below command to run the project:
 
 ### `npm start`
 
