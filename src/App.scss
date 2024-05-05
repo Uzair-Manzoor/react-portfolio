@@ -1,0 +1,19 @@
+.App {
+  height: 100%;
+
+  &__main-page-content {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    height: calc(100% - 80px);
+    width: calc(100% - 80px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App__main-page-content {
+    //position: static;
+    width: 100%;
+    left: 0;
+  }
+}
