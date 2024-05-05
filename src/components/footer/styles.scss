@@ -1,0 +1,55 @@
+.social-footer {
+  position: fixed;
+  top: calc(50% + 40px);
+  transform: translateY(-50%);
+  left: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: top 0.5s ease, left 0.5s ease, flex-direction 0.5s ease, transform 0.5s ease;
+
+  li {
+    a {
+      display: block;
+      padding: 8px;
+      border-radius: 5px;
+      background-color: #333;
+      transition: background-color 0.5s ease;
+
+      &:hover {
+        background-color: #555;
+
+        svg {
+          width: 115%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .social-footer {
+    flex-direction: row;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: 70%;
+    gap: 4px;
+
+    li {
+      a {
+        background-color: transparent;
+        padding: 0;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
