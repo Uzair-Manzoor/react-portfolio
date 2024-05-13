@@ -23,9 +23,9 @@
       cursor: pointer;
 
       img {
-        height: 80px;
-        width: 80px;
-        animation: logoSpin 3s linear infinite;
+        height: 100%;
+        width: 60%;
+        animation: logoSpin 5s ease-in-out infinite;
       }
     }
 
