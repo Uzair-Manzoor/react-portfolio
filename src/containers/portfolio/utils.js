@@ -1,7 +1,7 @@
-import Image from '../../images/image.jpg';
+// import Image from '../../images/image1.jpg';
 
 const portfolioData = [
-  
+
 ];
 
 const filterData = [
