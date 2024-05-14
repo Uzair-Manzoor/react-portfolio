@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 :root {
-  --theme-backgroung-color: #050129;
-  --theme-main-color: #dadd0c;
-  --theme-sub-text-color: #edd5f4;
-  --theme-nav-background-color: #011729;
+  --theme-backgroung-color: #172a2f;
+  --theme-main-color: #eeff5a;
+  --theme-sub-text-color: #4e7a60;
+  --theme-nav-background-color: #061c2e;
 }
 
 * {
