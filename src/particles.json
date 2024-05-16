@@ -2,7 +2,7 @@
 	"autoPlay": true,
 	"background": {
 	  "color": {
-		"value": "#000"
+		"value": "var(--theme-backgroung-color)"
 	  },
 	  "image": "",
 	  "position": "",
