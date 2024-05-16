@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 :root {
-  --theme-backgroung-color: #172a2f;
-  --theme-main-color: #eeff5a;
-  --theme-sub-text-color: #4e7a60;
-  --theme-nav-background-color: #061c2e;
+  --theme-backgroung-color: #021e15;
+  --theme-main-color: #01fe12;
+  --theme-sub-text-color: #00ff00;
+  --theme-nav-background-color: #082b0380;
 }
 
 * {
@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: Roboto, Arial, Helvetica;
+  font-family: cursive, system;
 }
 
 html {
