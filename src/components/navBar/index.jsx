@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
-import logo from '../../uzair3.png';
+import logo from '../../tbg.png';
 import './styles.scss';
 import data from './utils';
 
