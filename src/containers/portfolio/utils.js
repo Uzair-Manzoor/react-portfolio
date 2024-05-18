@@ -1,6 +1,7 @@
 import ImageOne from '../../images/image1.webp';
 import ImageTwo from '../../images/image2.jpg';
 import ImageFive from '../../images/image5.jpg';
+import ImageSix from '../../images/image6.webp';
 import ImageEight from '../../images/image8.jpg';
 
 const portfolioData = [
@@ -30,6 +31,15 @@ const portfolioData = [
     link: 'https://uzair-manzoor.github.io/Capstone/index.html',
     code: 'https://github.com/Uzair-Manzoor/Capstone.git',
     tech: ['JavaScript', 'HTML5', 'CSS5'],
+  },
+  {
+    id: 2,
+    name: 'Math Magician',
+    description: 'Welcome to Math Magicians. Your go-to web application for all your mathematical needs! A powerful calculator application that makes complex computations a breeze. Math Magicians is here to simplify your math journey with a sleek and user-friendly interface.',
+    image: ImageSix,
+    link: 'https://math-magicians-ir68txw5n-uzair-manzoor.vercel.app/',
+    code: 'https://github.com/Uzair-Manzoor/math-magicians.git',
+    tech: ['React', 'JavaScript', 'CSS5', 'API'],
   },
   {
     id: 2,
