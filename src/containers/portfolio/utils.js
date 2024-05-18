@@ -1,5 +1,6 @@
 import ImageOne from '../../images/image1.webp';
 import ImageTwo from '../../images/image2.jpg';
+import ImageEight from '../../images/image8.jpg';
 
 const portfolioData = [
   {
@@ -19,6 +20,15 @@ const portfolioData = [
     link: 'https://healthcare-app-frontend.vercel.app/',
     code: 'https://github.com/Uzair-Manzoor/healthcare-app-backend.git',
     tech: ['PostgreSQL', 'React', 'Redux', 'Ruby On Rails', 'Render', 'Vercel', 'Tailwind'],
+  },
+  {
+    id: 2,
+    name: 'Pollution Metrics',
+    description: 'Pollution Metrics is a pollution metrics dashboard for Canadian cities and states. It allows users to explore air quality and weather data for various regions within Canada. Users can navigate through Canadian states, view a list of cities, and access detailed pollution and weather information for each city.',
+    image: ImageEight,
+    link: 'https://metrics-webapp-git-styling-uzair-manzoor.vercel.app/',
+    code: 'https://github.com/Uzair-Manzoor/Matrics-webapp.git',
+    tech: ['React', 'Redux', 'CSS5', 'API'],
   },
 ];
 
