@@ -1,4 +1,5 @@
 import ImageOne from '../../images/image1.webp';
+import ImageTwo from '../../images/image2.jpg';
 
 const portfolioData = [
   {
@@ -9,6 +10,15 @@ const portfolioData = [
     link: 'https://space-travelers-8tvba23t2-uzair-manzoor.vercel.app/',
     code: 'https://github.com/Uzair-Manzoor/SpaceTravelersHub.git',
     tech: ['React', 'Redux', 'CSS5', 'API'],
+  },
+  {
+    id: 2,
+    name: 'Health Care Application',
+    description: 'The React/Redux front-end application for the "Doctor Appointments" seamlessly communicates with the Rails back-end API, ensuring a cohesive and efficient user experience',
+    image: ImageTwo,
+    link: 'https://healthcare-app-frontend.vercel.app/',
+    code: 'https://github.com/Uzair-Manzoor/healthcare-app-backend.git',
+    tech: ['PostgreSQL', 'React', 'Redux', 'Ruby On Rails', 'Render', 'Vercel', 'Tailwind'],
   },
 ];
 
