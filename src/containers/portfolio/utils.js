@@ -1,5 +1,6 @@
 import ImageOne from '../../images/image1.webp';
 import ImageTwo from '../../images/image2.jpg';
+import ImageFive from '../../images/image5.jpg';
 import ImageEight from '../../images/image8.jpg';
 
 const portfolioData = [
@@ -20,6 +21,15 @@ const portfolioData = [
     link: 'https://healthcare-app-frontend.vercel.app/',
     code: 'https://github.com/Uzair-Manzoor/healthcare-app-backend.git',
     tech: ['PostgreSQL', 'React', 'Redux', 'Ruby On Rails', 'Render', 'Vercel', 'Tailwind'],
+  },
+  {
+    id: 2,
+    name: 'Summer Summits',
+    description: 'Built with HTML, CSS, and JavaScript. The main objective of this project is to start practicing the professional way to work with CSS HTML and JavaScript in responsive design, using the basic structure, data query, flexbox and all following a template in Behance.',
+    image: ImageFive,
+    link: 'https://uzair-manzoor.github.io/Capstone/index.html',
+    code: 'https://github.com/Uzair-Manzoor/Capstone.git',
+    tech: ['JavaScript', 'HTML5', 'CSS5'],
   },
   {
     id: 2,
