@@ -25,7 +25,11 @@
       img {
         height: 100%;
         width: 28%;
-        animation: logoSpin 5s ease-in-out infinite;
+        animation: logoSpin 6s ease-in-out 1;
+      }
+
+      img:hover {
+        animation: logoSpin 4s linear infinite;
       }
     }
 
