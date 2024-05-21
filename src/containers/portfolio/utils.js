@@ -16,7 +16,7 @@ const portfolioData = [
   },
   {
     id: 2,
-    name: 'Health Care Application',
+    name: 'Health Care App',
     description: 'The React/Redux front-end application for the "Doctor Appointments" seamlessly communicates with the Rails back-end API, ensuring a cohesive and efficient user experience',
     image: ImageTwo,
     link: 'https://healthcare-app-frontend.vercel.app/',
