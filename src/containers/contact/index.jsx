@@ -35,6 +35,7 @@ const Contact = () => (
                 type="text"
               />
               <label htmlFor="name" className="nameLabel">
+                {/* <input type="text" /> */}
                 Name
               </label>
             </div>
@@ -47,6 +48,7 @@ const Contact = () => (
                 type="email"
               />
               <label htmlFor="email" className="emailLabel">
+                {/* <input type="none" */}
                 Email
               </label>
             </div>
@@ -60,6 +62,7 @@ const Contact = () => (
                 rows="5"
               />
               <label htmlFor="description" className="descriptionLabel">
+                {/* <input type="text" /> */}
                 Description
               </label>
             </div>

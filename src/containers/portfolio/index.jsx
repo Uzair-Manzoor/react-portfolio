@@ -40,36 +40,51 @@ const Portfolio = () => {
         <div className="portfolio__content">
           <ul className="portfolio__content__filter">
             {filterData.map((item) => (
-              <li
-                className={item.filterId === filteredValue ? 'active' : ''}
-                key={item.filterId}
-                onClick={() => handleFilter(item.filterId)}
-              >
-                {item.label}
+              <li key={item.filterId}>
+                <button
+                  className={item.filterId === filteredValue ? 'active' : ''}
+                  onClick={() => handleFilter(item.filterId)}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      handleFilter(item.filterId);
+                    }
+                  }}
+                  type="button"
+                >
+                  {item.label}
+                </button>
               </li>
             ))}
           </ul>
           <div className="portfolio__content__cards">
             {
-              filteredItems.map((item, index) => (
+              filteredItems.map((item) => (
                 <div
-                  key={item.name.trim()}
+                  key={item.id}
                   className="portfolio__content__cards__item"
-                  onMouseEnter={() => handleHover(index)}
+                  onMouseEnter={() => handleHover(item.id)}
                   onMouseLeave={() => handleHover(null)}
+                  onClick={() => window.open(item.link, '_blank')}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      window.open(item.link, '_blank');
+                    }
+                  }}
+                  role="button"
+                  tabIndex={0}
                 >
                   <div className="portfolio__content__cards__item__img-wrapper">
-                    <img src={item.image} alt="" />
+                    <img src={item.image} alt={item.name} />
                   </div>
                   <div className="overlay">
                     {
-                      index === hoveredValue && (
+                      item.id === hoveredValue && (
                         <div>
                           <h4>{item.name}</h4>
                           <p>{item.description}</p>
                           <ul>
-                            {item.tech.map((techItem, techIndex) => (
-                              <li key={techIndex}>{techItem}</li>
+                            {item.tech.map((techItem) => (
+                              <li key={techItem}>{techItem}</li>
                             ))}
                           </ul>
                           <a href={item.link} rel="noopener noreferrer" target="_blank">Visit</a>
