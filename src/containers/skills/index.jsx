@@ -15,8 +15,8 @@ const Skills = () => (
 
     <div className="skills__content-wrapper">
       {
-        skillsData.map((item, i) => (
-          <div key={i} className="skills__content-wrapper__inner-content">
+        skillsData.map((item) => (
+          <div key={item.id} className="skills__content-wrapper__inner-content">
             <Animate
               play
               duration={1}
@@ -33,9 +33,9 @@ const Skills = () => (
               </h3>
               <div className="progressbar-container">
                 {
-                  item.data.map((skillItem, j) => (
+                  item.data.map((skillItem) => (
                     <AnimateKeyframes
-                      key={j}
+                      key={skillItem.id}
                       play
                       duration={1}
                       keyframes={['opacity: 1', 'opacity: 1']}
